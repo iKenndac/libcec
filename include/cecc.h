@@ -164,6 +164,8 @@ extern DECLSPEC int cec_is_active_source(CEC::cec_logical_address iAddress);
 extern DECLSPEC int cec_is_active_source(cec_logical_address iAddress);
 #endif
 
+extern DECLSPEC int cec_activate_source(int bTransmitDelayedCommandsOnly);
+
 #ifdef __cplusplus
 extern DECLSPEC CEC::cec_power_status cec_get_device_power_status(CEC::cec_logical_address iLogicalAddress);
 #else
