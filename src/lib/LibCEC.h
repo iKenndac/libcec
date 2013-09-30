@@ -87,6 +87,7 @@ namespace CEC
       cec_osd_name GetDeviceOSDName(cec_logical_address iAddress);
       cec_logical_address GetActiveSource(void);
       bool IsActiveSource(cec_logical_address iAddress);
+      bool ActivateSource(bool bTransmitDelayedCommandsOnly);
       bool SetStreamPath(cec_logical_address iAddress);
       bool SetStreamPath(uint16_t iPhysicalAddress);
       cec_logical_addresses GetLogicalAddresses(void);
